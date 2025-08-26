@@ -40,10 +40,10 @@ if st.button("🔮 Predict Price"):
         pipeline = PredictPipeline()
         prediction = pipeline.predict(df)
 
-        st.success(f"💰 Predicted Diamond Price: **{prediction[0]:,.2f}**")
+        st.success(f" Predicted Diamond Price: **{prediction[0]:,.2f}**")
 
     except Exception as e:
-        st.error(f"⚠️ Error: {e}")
+        st.error(f" Error: {e}")
 
 
 
