@@ -21,7 +21,7 @@ color = st.selectbox("Color", options=["D", "E", "F", "G", "H", "I", "J"])
 clarity = st.selectbox("Clarity", options=["I1", "SI2", "SI1", "VS2", "VS1", "VVS2", "VVS1", "IF"])
 
 # Predict button
-if st.button("🔮 Predict Price"):
+if st.button(" Predict Price"):
     try:
         custom_data = CustomData(
             carat=carat,
